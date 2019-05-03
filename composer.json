@@ -1,0 +1,13 @@
+{
+    "name": "sebastian/wp-composer-package",
+    "description": "Collection of shortcodes and widgeds for WP theme",
+    "type": "library",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Sebastian Kurzynowski",
+            "email": "sebastian.kurzynowski@gmail.com"
+        }
+    ],
+    "require": {}
+}
