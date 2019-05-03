@@ -1,5 +1,5 @@
 {
-  "name": "sebastian/wp-composer-package",
+  "name": "decent-productivity/wp-composer-package",
   "description": "Collection of shortcodes and widgeds for WP theme",
   "type": "library",
   "license": "GNU",
