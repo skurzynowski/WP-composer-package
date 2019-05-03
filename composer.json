@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DecentProductivity\\WpFeaturesPackage\\": "src/"
+      "DecentProductivity\\WpFeatures\\": "src/"
     }
   },
   "require": {

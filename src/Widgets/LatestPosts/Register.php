@@ -2,15 +2,13 @@
 
 namespace DecentProductivity\WpFeatures\Shortcodes\About;
 
-use \DecentProductivity\WpFeatures\Shortcodes\Factory;
 /**
  * Register About Shortcode
  */
 class Register
 {
-  public function registerInWordpress():void
+  function __construct()
   {
     // code...
-    var_dump('registered');
   }
 }
