@@ -1,5 +1,5 @@
 {
-  "name": "skurzynowski/WP-composer-package",
+  "name": "skurzynowski/wp-features",
   "description": "Collection of shortcodes and widgeds for WP theme",
   "type": "library",
   "license": "GNU",
