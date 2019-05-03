@@ -2,7 +2,7 @@
   "name": "skurzynowski/wp-features",
   "description": "Collection of shortcodes and widgeds for WP theme",
   "type": "library",
-  "license": "GNU",
+  "license": "GPL-1.0-or-later",
   "authors": [{
     "name": "Sebastian Kurzynowski",
     "email": "sebastian.kurzynowski@gmail.com"
