@@ -6,6 +6,7 @@
     > .about-article {
       padding: 0;
       max-width: 100%;
+
       .title {
         text-align: left;
         padding-left: 0;
@@ -16,7 +17,7 @@
         display: flex;
         flex-wrap: wrap;
 
-        .profession{
+        .profession {
           color: rgba(0,0,0,0.3);
         }
 
@@ -28,8 +29,8 @@
           }
 
           p {
-            // max-width: 300px;
-            width: 100%;
+            width: 300px;
+            margin: 0 auto;
           }
 
           &.img-container {
@@ -40,6 +41,7 @@
               border-radius: 5px;
             }
           }
+
           &.text-container {
             @media(max-width: 768px) {
               text-align: center;
