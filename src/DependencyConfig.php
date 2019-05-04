@@ -8,13 +8,17 @@ use Symfony\Component\DependencyInjection\Reference;
 $containerBuilder = new ContainerBuilder();
 
 //Register shortcodes
+$containerBuilder->register( 'acf-conf-about', 'DecentProductivity\WpFeatures\Shortcodes\About\AcfConfiguration' );
+$containerBuilder->register( 'acf-conf-author', 'DecentProductivity\WpFeatures\Shortcodes\About\AcfConfiguration' );
+
 $containerBuilder
 				->register( 'shortcode-about', 'DecentProductivity\WpFeatures\Shortcodes\About\Register' )
-				->addArgument(new Reference('shortcode-factory'));
+				->addArgument(new Reference('acf-conf-author'));
+
 
 $containerBuilder
 				->register( 'shortcode-author', 'DecentProductivity\WpFeatures\Shortcodes\Author\Register' )
-				->addArgument(new Reference('shortcode-factory'));
+				->addArgument(new Reference('acf-conf-author'));
 
 //Register widgets
 $containerBuilder

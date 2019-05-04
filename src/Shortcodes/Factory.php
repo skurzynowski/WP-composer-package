@@ -2,23 +2,25 @@
 
 namespace DecentProductivity\WpFeatures\Shortcodes;
 
+use DecentProductivity\WpFeatures\Interfaces\ModuleFactory;
+
 /**
  * Shortcode Factory
  */
-class Factory {
+class Factory implements ModuleFactory{
 
 	private $shorcodes = [];
 
-	function register( string $argument ) {
-		switch ( $argument ) {
+	function register( string $type ):ModuleFactory {
+		switch ( $type ) {
 			case 'about':
 			case 'author':
-				// code...
-				$this->shortcodes[ $argument ]->registerInWordpress();
-        
+				$this->shortcodes[ $type ]->registerInWordpress();
+
         return $this;
 			default:
-				// code...
+				
+        return $this;
 				break;
 		}
 	}
